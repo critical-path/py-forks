@@ -1,12 +1,13 @@
 from setuptools import find_packages
 from setuptools import setup
 
+
 setup(
   name="py-forks", 
   
   version="1.0.0",
   
-  description="util that retrieves a list of forks for a given github user and repo.", 
+  description="util that retrieves a list of forks for a given github user and repo", 
 
   url="https://github.com/critical-path/py-forks",
 
