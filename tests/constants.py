@@ -1,6 +1,3 @@
-from json import dumps
-
-
 API = "https://api.github.com"
 
 USER = "test-user"
@@ -12,7 +9,7 @@ REPO1 = "test-repo1"
 REPOS = [
   {
     "name": "test-repo0"
-  }, 
+  },
   {
     "name": "test-repo1"
   }
@@ -27,8 +24,8 @@ FORKS = [
   }
 ]
 
-REPOS_AND_FORKS = {  
-  "test-repo0": 
+REPOS_AND_FORKS = {
+  "test-repo0":
     [
       {
         "name": "test-fork0"
@@ -46,18 +43,21 @@ REPOS_AND_FORKS = {
       {
         "name": "test-fork1"
       }
-    ]  
+    ]
 }
 
 REPO0_AND_FORKS = {
-  "test-repo0": 
+  "test-repo0":
     [
       {
         "name": "test-fork0"
-      }, 
+      },
       {
         "name": "test-fork1"
       }
     ]
 }
 
+FILENAME_USER = "forks-test-user.json"
+
+FILENAME_USER_REPO = "forks-test-user-test-repo0.json"
