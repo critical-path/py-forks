@@ -66,7 +66,7 @@ To retrieve a list of forks associated with a given user and a given repo, run f
 forks -u <user> -r <repo>
 ```
 
-To write the retrieved list of forks to disk, run forks with the --w option.
+To write the retrieved list of forks to disk, run forks with the -w option.
 
 ```
 forks -u <user> -w
