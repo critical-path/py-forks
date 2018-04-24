@@ -4,8 +4,7 @@ __version__ = "1.0.0"
 
 __author__ = "critical-path"
 
-_all__ = [
-  "forks_cli.py",
-  "forks_lib.py"
+__all__ = [
+    "forks_cli.py",
+    "forks_lib.py"
 ]
-
