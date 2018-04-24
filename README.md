@@ -5,10 +5,10 @@ py-forks is a util that retrieves a list of forks for a given GitHub user and re
 
 ## Dependencies
 
-py-forks requires Python 3.x as well as the pip, click, requests, pytest, pytest-cov, and responses packages.
+py-forks requires Python 3.x as well as the pip, click, requests, pycodestyle, pylint, pytest-cov, and responses packages.
 
 
-## Installing py-forks (with test cases and testing dependencies)
+## Installing py-forks with test cases and testing dependencies
 
 1. Clone or download this repository.
 
@@ -19,7 +19,7 @@ sudo pip3 install --editable .[test] .
 ```
 
 
-## Installing py-forks (without test cases or testing dependencies)
+## Installing py-forks without test cases or testing dependencies
 
 1. Clone or download this repository.
 
@@ -30,7 +30,7 @@ sudo pip3 install .
 ```
 
 
-## Using py-forks (long options)
+## Using py-forks with long options
 
 To retrieve a list forks for all repos associated with a given user, run forks with the --user option.
 
@@ -44,8 +44,15 @@ To retrieve a list of forks associated with a given user and a given repo, run f
 forks --user <user> --repo <repo>
 ```
 
+To write the retrieved list of forks to disk, run forks with the --write option.
 
-## Using py-forks (short options)
+```
+forks --user <user> --write
+forks --user <user> --repo <repo> --write
+```
+
+
+## Using py-forks with short options
 
 To retrieve a list forks for all repos associated with a given user, run forks with the -u option.
 
@@ -59,16 +66,29 @@ To retrieve a list of forks associated with a given user and a given repo, run f
 forks -u <user> -r <repo>
 ```
 
+To write the retrieved list of forks to disk, run forks with the --w option.
 
-## Testing py-forks
+```
+forks -u <user> -w
+forks -u <user> -r <repo> -w
+```
 
-1. Change to the tests directory.
+
+## Testing py-forks after installation
+
+1. Run pylint.
+
+```
+pylint forks
+```
+
+2. Change to the tests directory.
 
 ```
 cd ./tests
 ```
 
-2. Run pytest with the -v --cov and --cov-report options.
+3. Run pytest with the -v, --cov, and, --cov-report options.
 
 ```
 pytest -v --cov=forks --cov-report=term-missing
