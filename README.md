@@ -32,7 +32,7 @@ sudo pip3 install .
 
 ## Using py-forks with long options
 
-To retrieve a list forks for all repos associated with a given user, run forks with the --user option.
+To retrieve a list of forks for all repos associated with a given user, run forks with the --user option.
 
 ```
 forks --user <user>
@@ -54,7 +54,7 @@ forks --user <user> --repo <repo> --write
 
 ## Using py-forks with short options
 
-To retrieve a list forks for all repos associated with a given user, run forks with the -u option.
+To retrieve a list of forks for all repos associated with a given user, run forks with the -u option.
 
 ```
 forks -u <user>
