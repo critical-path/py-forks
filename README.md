@@ -5,7 +5,7 @@ py-forks is a util that retrieves a list of forks for a given GitHub user and re
 
 ## Dependencies
 
-py-forks requires Python 3.x as well as the pip, click, requests, pylint, pytest-cov, and responses packages.
+py-forks requires Python as well as the pip, click, requests, pylint, pytest-cov, and responses packages.
 
 
 ## Installing py-forks with test cases and testing dependencies
