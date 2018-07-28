@@ -51,11 +51,11 @@ def get_forks_for_one_repo(api, user, repo):
         The repo of interest.
 
     The parameters help to form the API endpoint.
-    
+
     Returns
     -------
     forks : dict
-        The forks for the repo of interest. 
+        The forks for the repo of interest.
     """
 
     forks = {}
@@ -83,11 +83,11 @@ def get_forks_for_all_repos(api, user, repos):
         The repos of interest.
 
     The parameters help to form the API endpoint.
-    
+
     Returns
     -------
     forks : dict
-        The forks for the repos of interest. 
+        The forks for the repos of interest.
     """
 
     forks = {}
@@ -116,7 +116,7 @@ def write_results(user=None, repo=None, forks=None):
       The forks associated with the user and repo.
 
     The parameters help to form the filename.
-    
+
     Returns
     -------
     N/A
