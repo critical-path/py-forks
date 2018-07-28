@@ -24,4 +24,4 @@ install:
 
 script:
   - pylint forks
-  - py.test -vv --cov=py_forks --cov-report=term-missing
+  - py.test -vv --cov=py-forks --cov-report=term-missing
