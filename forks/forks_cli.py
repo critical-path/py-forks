@@ -1,3 +1,6 @@
+"""Command-line interface for py-forks."""
+
+
 from json import dumps
 
 from click import (
