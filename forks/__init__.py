@@ -1,4 +1,4 @@
-"util that retrieves a list of forks for a given github user and repo."
+"""util that retrieves a list of forks for a given github user and repo."""
 
 __version__ = "1.0.0"
 
