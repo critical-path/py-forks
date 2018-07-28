@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/critical-path/py-forks.svg?branch=master)](https://travis-ci.com/critical-path/py-forks)
+
 ## py-forks v1.0.0
 
 py-forks is a util that retrieves a list of forks for a given GitHub user and repo.
