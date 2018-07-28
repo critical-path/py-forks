@@ -1,4 +1,4 @@
-"""Command-line interface for py-forks."""
+"""command-line interface for py-forks."""
 
 
 from json import dumps
