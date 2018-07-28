@@ -90,10 +90,10 @@ pylint forks
 cd ./tests
 ```
 
-3. Run pytest with the -v, --cov, and, --cov-report options.
+3. Run pytest with the -vv, --cov, --cov-report, --cov-config options.
 
 ```
-pytest -v --cov=forks --cov-report=term-missing
+pytest -vv --cov=forks --cov-report=term-missing --cov-config=.coveragerc
 ```
 
 
