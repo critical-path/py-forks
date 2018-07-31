@@ -27,10 +27,10 @@ API = "https://api.github.com"
 def get_forks(user=None, repo=None, write=False):
     """Util that retrieves a list of forks for a given GitHub user and repo."""
 
-    if user and repo:
+    if (user is not None) and (repo is not None):
         forks = get_forks_for_one_repo(API, user, repo)
 
-    elif user and not repo:
+    if (user is not None) and (repo is None):
         repos = get_repos(API, user)
         forks = get_forks_for_all_repos(API, user, repos)
 
