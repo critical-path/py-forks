@@ -24,4 +24,4 @@ install:
 script:
   - pylint forks
   - cd ./tests
-  - py.test -vv --cov=forks --cov-report=term-missing --cov-config=.coveragerc
+  - py.test -vv --cov=forks --cov-branch --cov-report=term-missing --cov-config=.coveragerc
