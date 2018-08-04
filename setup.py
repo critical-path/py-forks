@@ -36,7 +36,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "forks=forks.forks_cli:get_forks"
+            "forks=forks.cli:get_forks"
         ]
     }
 )

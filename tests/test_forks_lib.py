@@ -5,7 +5,7 @@ from os import (
     stat
 )
 
-from forks.forks_lib import (
+from forks.lib import (
     get_repos,
     get_forks_for_all_repos,
     get_forks_for_one_repo,

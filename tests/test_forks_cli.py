@@ -7,7 +7,7 @@ from os import (
 
 from click.testing import CliRunner
 
-from forks.forks_cli import get_forks
+from forks.cli import get_forks
 
 from responses import (
     activate,

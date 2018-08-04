@@ -9,7 +9,7 @@ from click import (
     option
 )
 
-from forks.forks_lib import (
+from forks.lib import (
     get_repos,
     get_forks_for_one_repo,
     get_forks_for_all_repos,
