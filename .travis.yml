@@ -27,4 +27,4 @@ script:
   - py.test -vv --cov --cov-branch --cov-report=term-missing
 
 after_success:
-  - coveralls
+  - coveralls --base_dir $TRAVIS_BUILD_DIR
