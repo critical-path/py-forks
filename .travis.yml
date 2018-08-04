@@ -26,3 +26,6 @@ script:
   - pylint forks
   - cd ./tests
   - py.test -vv --cov=forks --cov-branch --cov-report=term-missing --cov-config=.coveragerc
+
+after_success:
+  - coveralls
