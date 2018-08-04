@@ -27,5 +27,4 @@ script:
   - py.test -vv --cov --cov-branch --cov-report=term-missing
 
 after_success:
-  - pip install python-coveralls
   - coveralls
