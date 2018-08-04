@@ -28,4 +28,4 @@ script:
 
 after_success:
   - pip install python-coveralls
-  - coveralls
+  - coveralls --base_dir .
