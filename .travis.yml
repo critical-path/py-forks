@@ -20,12 +20,11 @@ python:
 # job phases
 
 install:
-  - pip install --editable .[test] .
+  - pip install --user --editable .[test] .
 
 script:
   - pylint forks
-  - cd ./tests
-  - py.test -vv --cov=forks --cov-branch --cov-report=term-missing --cov-config=.coveragerc
+  - py.test -vv --cov=forks --cov-branch --cov-report=term-missing --cov-config=./tests/.coveragerc ./tests
 
 after_success:
   - pip install python-coveralls
