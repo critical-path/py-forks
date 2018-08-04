@@ -20,7 +20,7 @@ python:
 # job phases
 
 install:
-  - pip install --user --editable .[test] .
+  - pip install --editable .[test] .
 
 script:
   - pylint forks
