@@ -24,9 +24,8 @@ install:
 
 script:
   - pylint forks
-  - cd ./tests
-  - py.test -vv --cov=forks --cov-branch --cov-report=term-missing --cov-config=.coveragerc
+  - py.test -vv --cov=forks --cov-branch --cov-report=term-missing --cov-config=./tests/.coveragerc ./tests
 
 after_success:
   - pip install python-coveralls
-  - coveralls --base_dir ../
+  - coveralls
