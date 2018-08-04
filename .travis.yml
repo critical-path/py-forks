@@ -28,4 +28,4 @@ script:
 
 after_success:
   - pip install python-coveralls
-  - coveralls --base_dir .
+  - coveralls --base_dir /home/travis/build/critical-path/py-forks
