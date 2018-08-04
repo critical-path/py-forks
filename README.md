@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/critical-path/py-forks.svg?branch=master)](https://travis-ci.com/critical-path/py-forks)
+[![Build Status](https://travis-ci.com/critical-path/py-forks.svg?branch=master)](https://travis-ci.com/critical-path/py-forks) [![Coverage Status](https://coveralls.io/repos/github/critical-path/py-forks/badge.svg?branch=master)](https://coveralls.io/github/critical-path/py-forks?branch=master)
 
 ## py-forks v1.0.0
 
