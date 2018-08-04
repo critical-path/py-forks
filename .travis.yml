@@ -28,4 +28,5 @@ script:
   - py.test -vv --cov=forks --cov-branch --cov-report=term-missing --cov-config=.coveragerc
 
 after_success:
+  - pip install python-coveralls
   - coveralls
