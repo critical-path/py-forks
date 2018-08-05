@@ -1,7 +1,6 @@
 [run]
 branch = True
-include = 
-    */site-packages/forks/*.py
+source = forks
 
 [report]
 exclude_lines =
