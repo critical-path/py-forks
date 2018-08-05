@@ -7,7 +7,7 @@ py-forks is a util that retrieves a list of forks for a given GitHub user and re
 
 ## Dependencies
 
-py-forks requires Python as well as the pip, click, requests, pylint, pytest, pytest-cov, and responses packages.
+py-forks requires Python as well as the pip, click, requests, coveralls, pylint, pytest, pytest-cov, and responses packages.
 
 
 ## Installing py-forks with test cases and testing dependencies
@@ -17,7 +17,7 @@ py-forks requires Python as well as the pip, click, requests, pylint, pytest, py
 2. Using sudo, run pip with the install command and the --editable option.
 
 ```
-sudo pip install --editable .[test] .
+sudo pip install --editable .[test]
 ```
 
 
