@@ -28,10 +28,10 @@ setup(
     ],
     extras_require={
         "test": [
-            "coveralls",
             "pylint",
             "pytest",
             "pytest-cov",
+            "python-coveralls".
             "responses"
         ]
     },
