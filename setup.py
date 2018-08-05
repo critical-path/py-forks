@@ -31,7 +31,7 @@ setup(
             "pylint",
             "pytest",
             "pytest-cov",
-            "python-coveralls".
+            "python-coveralls",
             "responses"
         ]
     },
