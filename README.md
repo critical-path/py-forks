@@ -84,10 +84,10 @@ forks -u <user> -r <repo> -w
 pylint forks
 ```
 
-2. Run pytest with the -vv, --cov, --cov-branch, and --cov-report options.
+2. Run pytest with the -vv, --cov, and --cov-report options.
 
 ```
-pytest -vv --cov --cov-branch --cov-report=term-missing
+pytest -vv --cov --cov-report=term-missing
 ```
 
 
