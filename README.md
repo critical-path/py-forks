@@ -18,6 +18,7 @@ __Testing__:
 - pylint
 - pytest
 - pytest-cov
+- radon
 - responses
 
 
@@ -89,13 +90,19 @@ forks -u <user> -r <repo> -w
 
 ## Testing py-forks after installation
 
-1. Run `pylint`.
+1. Run `radon` with the `mi` command and the `--show` option.
+
+```
+radon mi --show forks
+```
+
+2. Run `pylint`.
 
 ```
 pylint forks
 ```
 
-2. Run `pytest` with the `-vv`, `--cov`, and `--cov-report` options.
+3. Run `pytest` with the `-vv`, `--cov`, and `--cov-report` options.
 
 ```
 pytest -vv --cov --cov-report=term-missing
