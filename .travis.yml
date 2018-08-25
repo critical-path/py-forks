@@ -23,6 +23,7 @@ install:
   - pip install --editable .[test]
 
 script:
+  - radon mi --show forks
   - pylint forks
   - py.test -vv --cov --cov-report=term-missing
 
